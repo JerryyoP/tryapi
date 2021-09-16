@@ -1,1 +1,1 @@
-worker: python3 pornhub_relay.py
+web: python3 pornhub_relay.py
