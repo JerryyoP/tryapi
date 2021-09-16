@@ -38,7 +38,7 @@ async def relay(url: str):
     if url:
         url = url.decode().strip()
         return StreamingResponse(
-                iter_stream(),
+                iter_stream(url),
                 200,
                 media_type="video/mp4",
         )
